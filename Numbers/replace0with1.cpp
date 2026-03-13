@@ -25,10 +25,20 @@ int replaceZeroWithOne(int n){
     return result;
 }
 
+int replaceZeroWithOnes(int n){
+    string str = to_string(n);
+    for(int i=0; i<str.length(); i++){
+        if(str[i]=='0'){
+            str[i] = '1';
+        }
+    }
+    return stoi(str);
+}
 int main(){
     int n;
     cout<<"Enter the number : ";
     cin>>n;
-    cout<<replaceZeroWithOne(n);
+    cout<<replaceZeroWithOne(n)<<endl;
+    cout<<replaceZeroWithOnes(n);
     return 0;
 }
