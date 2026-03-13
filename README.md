@@ -1,111 +1,195 @@
-# TCS NQT PREPRATION
+# 🚀 TCS NQT Preparation – DSA Practice
 
-**Arrays**
-- Find the smallest number in an array
-- Find the largest number in an array
-- Second Smallest and Second Largest element in an array
-- Reverse a given array
-- Count frequency of each element in an array
-- Rearrange array in increasing-decreasing order
-- Calculate sum of the elements of the array
-- Rotate array by K elements - Block Swap Algorithm
-- Average of all elements in an array
-- Find the median of the given array
-- Remove duplicates from a sorted array
-- Remove duplicates from unsorted array
-- Adding Element in an array
-- Find all repeating elements in an array
-- Find all non-repeating elements in an array
-- Find all symmetric pairs in array
-- Maximum product subarray in an array
-- Replace each element of the array by its rank in the array
-- Sorting elements of an array by frequency
-- Rotation of elements of array- left and right
-- Finding equilibrium index of an array
-- Finding Circular rotation of an array by K positions
-- Sort an array according to the order defined by another array
-- Search an element in an array
-- Check if Array is a subset of another array or not
+<p align="center">
 
-**Strings**
-- Check if a given string is palindrome or not
-- Count number of vowels, consonants, spaces in String
-- Find the ASCII value of a character
-- Remove all vowels from the string
-- Remove spaces from a string
-- Remove characters from a string except alphabets
-- Reverse a String
-- Remove brackets from an algebraic expression
-- Sum of the numbers in a String
-- Capitalize first and last character of each word
-- Calculate frequency of characters in a string
-- Find Non-repeating characters of a String
-- Check if two strings are anagram of each other
-- Count common sub-sequence in two strings
-- Check if two strings match where one string contains wildcard characters
-- Return maximum occurring character in the input string
-- Remove all duplicates from the input string.
-- Print all the duplicates in the input string.
-- Remove characters from first string present in the second string
-- Change every letter with the next lexicographic alphabet in the given string
-- Write a program to find the largest word in a given string.
-- Write a program to sort characters in a string
-- Count number of words in a given string
-- Write a program to find a word in a given string which has the highest number of repeated - letters
-- Change case of each character in a string
-- Concatenate one string to another
-- Write a program to find a substring within a string. If found display its starting position
-- Reverse words in a string
+![C++](https://img.shields.io/badge/Language-C++-blue.svg)
+![DSA](https://img.shields.io/badge/Focus-Data%20Structures%20%26%20Algorithms-green)
+![Practice](https://img.shields.io/badge/Coding-Practice-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-**Sorting**
-- Bubble Sort Algorithm
-- Selection Sort Algorithm
-- Insertion Sort Algorithm
-- Quick Sort Algorithm
-- Merge sort algorithm
+</p>
 
-**Number System**
-- Convert Binary to Decimal
-- Convert binary to octal
-- Decimal to Binary conversion
-- Convert decimal to octal
-- Convert octal to binary
-- Convert octal to decimal
-- Convert digits/numbers to words
+---
 
-**Numbers**
-- Check if a number is palindrome or not
-- Find all Palindrome numbers in a given range
-- Check if a number is prime or not
-- Prime numbers in a given range
-- Check if a number is armstrong number of not
-- Check if a number is perfect number
-- Even or Odd
-- Check weather a given number is positive or negative
-- Sum of first N natural numbers
-- Find Sum of AP Series
-- Program to find sum of GP Series
-- Greatest of two numbers
-- Greatest of three numbers
-- Leap Year or not
-- Reverse digits of a number
-- Maximum and Minimum digit in a number
-- Print Fibonacci upto Nth Term
-- Factorial of a number
-- Power of a number
-- Factors of a given number
-- Print all prime factors of the given number
-- Check if a number is a strong number or not
-- Check if a Number is Automorphic
-- GCD of two numbers
-- LCM of two numbers
-- Check if a number is Harshad number
-- Check if the number is abundant number or not
-- Sum of digits of a number
-- Sum of numbers in the given range
-- Permutations in which N people can occupy R seats in a classroom
-- Program to add two fractions
-- Replace all 0s with 1s in a given integer
-- Can a number be expressed as a sum of two prime numbers
-- Calculate the area of circle
-- Program to find roots of a Quadratic Equation
+## 📌 About This Repository
+
+This repository contains **important coding problems frequently asked in TCS NQT and other placement tests**.
+It is structured topic-wise to help students revise **Data Structures, Algorithms, and Problem Solving** quickly.
+
+All problems are implemented in **C++**.
+
+---
+
+# 📂 Topics Covered
+
+## 📊 Arrays
+
+* Find the smallest number in an array
+* Find the largest number in an array
+* Second Smallest and Second Largest element in an array
+* Reverse a given array
+* Count frequency of each element in an array
+* Rearrange array in increasing-decreasing order
+* Calculate sum of the elements of the array
+* Rotate array by K elements (Block Swap Algorithm)
+* Average of all elements in an array
+* Find the median of the given array
+* Remove duplicates from a sorted array
+* Remove duplicates from unsorted array
+* Adding Element in an array
+* Find all repeating elements in an array
+* Find all non-repeating elements in an array
+* Find all symmetric pairs in array
+* Maximum product subarray in an array
+* Replace each element by its rank
+* Sorting elements of an array by frequency
+* Left and right rotation of array
+* Finding equilibrium index of an array
+* Circular rotation by K positions
+* Sort array according to another array
+* Search element in array
+* Check if array is subset of another array
+
+---
+
+## 🔤 Strings
+
+* Check if a string is palindrome
+* Count vowels, consonants, spaces
+* Find ASCII value of character
+* Remove vowels from string
+* Remove spaces from string
+* Remove non-alphabet characters
+* Reverse a string
+* Remove brackets from algebraic expression
+* Sum of numbers in a string
+* Capitalize first and last character of words
+* Character frequency in string
+* Non-repeating characters in string
+* Check if two strings are anagram
+* Count common subsequences
+* Wildcard string matching
+* Maximum occurring character
+* Remove duplicate characters
+* Print duplicate characters
+* Remove characters from first string present in second string
+* Next lexicographic character transformation
+* Find largest word in string
+* Sort characters in string
+* Count words in string
+* Word with highest repeated letters
+* Change case of each character
+* Concatenate strings
+* Find substring and its index
+* Reverse words in string
+
+---
+
+## 🔄 Sorting Algorithms
+
+* Bubble Sort
+* Selection Sort
+* Insertion Sort
+* Quick Sort
+* Merge Sort
+
+---
+
+## 🔢 Number System
+
+* Binary → Decimal
+* Binary → Octal
+* Decimal → Binary
+* Decimal → Octal
+* Octal → Binary
+* Octal → Decimal
+* Convert digits to words
+
+---
+
+## 🔢 Number Based Problems
+
+* Check palindrome number
+* Palindrome numbers in range
+* Prime number check
+* Prime numbers in range
+* Armstrong number
+* Perfect number
+* Even or Odd
+* Positive or Negative number
+* Sum of first N natural numbers
+* Sum of AP series
+* Sum of GP series
+* Greatest of two numbers
+* Greatest of three numbers
+* Leap year check
+* Reverse digits of number
+* Maximum and minimum digit in number
+* Fibonacci series upto N terms
+* Factorial of number
+* Power of number
+* Factors of number
+* Prime factors of number
+* Strong number
+* Automorphic number
+* GCD of two numbers
+* LCM of two numbers
+* Harshad number
+* Abundant number
+* Sum of digits
+* Sum of numbers in range
+* Permutations (N people occupying R seats)
+* Add two fractions
+* Replace all 0s with 1s
+* Express number as sum of two primes
+* Area of circle
+* Roots of quadratic equation
+
+---
+
+# 🧠 Why This Repository?
+
+✔ Helps prepare for **TCS NQT Coding Round**
+✔ Covers **most frequently asked placement problems**
+✔ Structured **topic-wise for quick revision**
+✔ Beginner friendly **C++ implementations**
+
+---
+
+# 🛠 Tech Used
+
+* C++
+* STL (Standard Template Library)
+* Basic Data Structures
+* Problem Solving
+
+---
+
+# 📈 Future Improvements
+
+* Add **Time & Space Complexity**
+* Add **Optimized approaches**
+* Add **LeetCode practice links**
+* Add **visual explanations**
+
+---
+
+# 👨‍💻 Author
+
+**Suraj Kumar**
+
+📌 Computer Science Engineer
+💻 MERN Stack Developer
+🚀 Passionate about Problem Solving & DSA
+
+---
+
+<p align="center">
+
+⭐ If you find this helpful, please give this repo a **star**!
+
+</p>
+
+---
+
+**Made with ❤️ by Suraj Kumar**
