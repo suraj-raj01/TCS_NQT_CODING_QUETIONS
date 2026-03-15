@@ -1,4 +1,5 @@
 #include<iostream>
+#include<set>
 using namespace std;
 #include<vector>
 #include<algorithm>
@@ -23,8 +24,23 @@ void removeDuplicate(vector<int> arr){
     }
 }
 
+int removeDuplicates(vector<int> &nums){
+    set<int>st(nums.begin(),nums.end());
+    int i=0;
+    for(int val:st){
+        nums[i] = val;
+        i++;
+    }
+    return st.size();
+}
 int main(){
     vector<int> arr = {1,2,3,1,2,5,4,3,2,1,5,4,6};
     removeDuplicate(arr);
+    cout<<endl;
+    vector<int> nums = {1,2,3,5,2,1,4,3,2};
+    int size = removeDuplicates(nums);
+    for(int i=0; i<size; i++){
+        cout<<nums[i]<<" ";
+    }
     return 0;
 }

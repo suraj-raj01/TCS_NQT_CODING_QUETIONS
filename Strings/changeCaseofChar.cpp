@@ -17,8 +17,16 @@ string changeCaseOfEachCharacter(string &s){
     return s;
 }
 
+string changeCase(string &s){
+    for(int i=0; i<s.length(); i++){
+        s[i] = tolower(s[i]);
+    }
+    return s;
+}
 int main(){
     string s = "hello this is suraj rajak";
-    cout<<changeCaseOfEachCharacter(s);
+    cout<<changeCaseOfEachCharacter(s)<<endl;
+    string s1 = "HELLO THIS IS SURAJ RAJAK";
+    cout<<changeCase(s1);
     return 0;
 }

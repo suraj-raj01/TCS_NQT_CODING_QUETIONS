@@ -21,9 +21,25 @@ void printDuplicates(string s){
     }
 }
 
+#include<map>
+void printDuplicate(string s){
+    map<int, int> freq;
+    for(int i=0; i<s.length(); i++){
+        freq[s[i]]++;
+    }
+    for(auto i:freq){
+        if(i.second>1){
+            cout<<char(i.first)<<" : "<<i.second<<endl;
+        }
+    }
+}
+
+
+
 int main(){
     string s = "khaobanaokela";
     cout<<"Input : "<<s<<endl;
     printDuplicates(s);
+    printDuplicate(s);
     return 0;
 }

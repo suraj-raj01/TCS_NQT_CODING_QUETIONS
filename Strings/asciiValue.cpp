@@ -3,14 +3,14 @@
 #include<iostream>
 using namespace std;
 
-void findASCII(char c){
-    cout<<int(c);
+int findASCII(char c){
+    return int(c);
 }
 
 int main(){
     char ch;
     cout<<"Enter a character : ";
     cin>>ch;
-    findASCII(ch);
+    cout<<findASCII(ch);
     return 0;
 }

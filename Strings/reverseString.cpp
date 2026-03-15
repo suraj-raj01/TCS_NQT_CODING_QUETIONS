@@ -14,9 +14,21 @@ string revString(string s){
     return rev;
 }
 
+string revStr(string s){
+    int left=0;
+    int right=s.length()-1;
+    while(left<right){
+        swap(s[left],s[right]);
+        left++;
+        right--;
+    }
+    return s;
+}
+
 int main(){
     string s;
     cout<<"Enter a string : ";
     cin>>s;
-    cout<<"Reversed String : "<<revString(s);
+    cout<<"Reversed String : "<<revString(s)<<endl;
+    cout<<"Reversed String : "<<revStr(s);
 }

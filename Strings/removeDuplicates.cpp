@@ -3,6 +3,7 @@
 
 #include<iostream>
 #include<string.h>
+#include<unordered_map>
 using namespace std;
 
 string remove_duplicate(string s){
@@ -22,8 +23,21 @@ string remove_duplicate(string s){
     return result;
 }
 
+string remove_duplicates(string s){
+    unordered_map<int, int> map;
+    for(int i=0; i<s.length(); i++){
+        map[s[i]]++;
+    }
+    string res="";
+    for(auto val:map){
+        res+=val.first;
+    }
+    return res;
+}
+
 int main(){
     string s = "banana";
-    cout<<"After removing duplicate : "<<remove_duplicate(s);
+    cout<<"After removing duplicate : "<<remove_duplicate(s)<<endl;
+    cout<<"After removing duplicate : "<<remove_duplicates(s);
     return 0;
 }

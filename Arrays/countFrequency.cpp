@@ -20,4 +20,4 @@ int main(){
     int n = sizeof(arr)/sizeof(int);
     frequency(arr,n);
     return 0;
-}
+} 

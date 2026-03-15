@@ -176,10 +176,10 @@ All problems are implemented in **C++**.
 
 # 👨‍💻 Author
 
-**Suraj Kumar**
+**SURAJ KUMAR**
 
 📌 Computer Science Engineer
-💻 MERN Stack Developer
+💻 Full Stack Developer
 🚀 Passionate about Problem Solving & DSA
 
 ---
@@ -191,5 +191,3 @@ All problems are implemented in **C++**.
 </p>
 
 ---
-
-**Made with ❤️ by Suraj Kumar**

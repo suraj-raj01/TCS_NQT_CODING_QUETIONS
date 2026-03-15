@@ -23,7 +23,20 @@ class Solution {
         for (int i = 0; i < l; i++) {
             if (freq[st[i] - 'a'] == 1 && st[i] != ' ') {
                 // Output the non-repeating character
-                cout << st[i] << " ";  
+                cout << st[i] << "";  
+            }
+        }
+    }
+
+    void nonRepeating(string s){
+        map<char, int> freq;
+        for(int i=0; i<s.length(); i++){
+            freq[s[i]]++;
+        }
+
+        for(auto i:freq){
+            if(i.second==1){
+                cout<<i.first;
             }
         }
     }
@@ -42,5 +55,7 @@ int main() {
     cout << "Non-Repeating characters: ";  
     // Call the method to print non-repeating characters
     obj.nonRepeating(st, freq);  
+    cout << "\nNon-Repeating characters: ";  
+    obj.nonRepeating(st);  
     return 0;
 }
