@@ -15,7 +15,7 @@ you need to find:
 if the given data is invalid, print -1.
 ____________________________________________________________________________________
 Solution:
-let 'x' is the number of vehicles and 'y' is the number of wheels.
+let 'x' is the 2 wheeler and 'y' is the 4 wheeler.
 
 x + y = v ----(1)
 2x + 4y = w ---(2)  // two-wheelers have two wheels and four-wheelers have four wheels.
