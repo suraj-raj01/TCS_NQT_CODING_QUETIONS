@@ -29,12 +29,22 @@ bool checkAnagram(string s1, string s2){
 }
 
 bool checkAnagrams(string s1, string s2){
+    // check length is equal or not.
     if(s1.length()!=s2.length()){
         return false;
     }
-    sort(s1.begin(),s1.end());
-    sort(s2.begin(),s2.end());
-    return s1==s2;
+    // if case-insensitive then
+    string str1 = "";
+    string str2 = "";
+    for(int i=0; i<s1.length(); i++){
+        str1 += tolower(s1[i]);
+        str2 += tolower(s2[i]);
+    }
+
+    sort(str1.begin(),str1.end());
+    sort(str2.begin(),str2.end());
+    
+    return str1==str2;
 }
 
 int main(){
